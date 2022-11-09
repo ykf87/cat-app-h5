@@ -1,0 +1,58 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.4rem;
+	background: #fafafa;
+	color: #333333;
+	font-size: 26rpx;
+	font-family: Markazi Text,Crimson Text;
+}
+.flex{
+	display: flex;
+}
+.flex.v{
+	align-items: center;
+}
+.flex.c{
+	justify-content: center;
+}
+.flex.c > .flex1{
+	text-align: center;
+	justify-content: center;
+}
+.flex1{
+	flex: 1;
+}
+.ups{
+	text-transform: uppercase;
+}
+.sex1,.sex2{
+	font-family: 'iconfont';
+	color: skyblue;
+	font-size: 25rpx;
+}
+.sex2{
+	color: pink;
+}
+.sex1:before{
+	content: "\e657";
+}
+.sex2:before{
+	content: "\e658";
+}
+navigator{
+	color: skyblue;
+}
+
+.icon-loading.loading{
+	-webkit-transform: rotate(360deg);
+	animation: rotation 3s linear infinite;
+	-moz-animation: rotation 3s linear infinite;
+	-webkit-animation: rotation 3s linear infinite;
+	-o-animation: rotation 3s linear infinite;
+}
+@-webkit-keyframes rotation{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}

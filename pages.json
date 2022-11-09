@@ -1,0 +1,32 @@
+{
+	"pages": [{
+		"path": "pages/index/index"
+	},{
+		"path": "pages/user/user"
+	},{
+		"path": "pages/login/login"
+	}],
+	"tabBar": {
+		"custom": true,
+		"height": "0",
+		"fontSize": "0px",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "首页"
+		},{
+			"pagePath": "pages/user/user",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationStyle" : "custom",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"usingComponts" : true
+}
